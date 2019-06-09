@@ -19,10 +19,10 @@ public class Path {
         return pathCsv;
 	}
 	
-	public static String getPath(String csv, String txt) {
+	public static String getPath(String arq1, String arq2) {
 		String path = null;
         JFileChooser file = new JFileChooser("../projetoFinal/src");
-        while (path == null || !(path.contains(".csv") || path.contains(".txt"))){
+        while (path == null || !(path.contains(arq1) || path.contains(arq2))){
             int returnValue = file.showOpenDialog(null);
             if (returnValue == JFileChooser.APPROVE_OPTION) {
                 File selectedFile = file.getSelectedFile();

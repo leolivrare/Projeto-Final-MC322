@@ -45,7 +45,7 @@ public class Application {
 		
 		while (aux) {
 			//Deixa o usuario escolher o caminho da tabela ou da serializacao da arvore
-	        String path = Path.getPath("csv", "txt");
+	        String path = Path.getPath(".csv", ".txt");
 			
 			//Se ele escolher a tabela o programa ira construir a arvore, se ele escolher a arvore o jogo ira carregar ela
 			if (path.contains(".csv")) {
