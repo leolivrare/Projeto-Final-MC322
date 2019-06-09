@@ -6,10 +6,10 @@ import javax.swing.JFileChooser;
 
 public class Path {
 	
-	public static String getPath(String csv) {
+	public static String getPath(String arq) {
 		String pathCsv = null;
 		JFileChooser file = new JFileChooser("../projetoFinal/src");
-        while (pathCsv == null || !(pathCsv.contains(".csv"))){
+        while (pathCsv == null || !(pathCsv.contains(arq))){
             int returnValue = file.showOpenDialog(null);
             if (returnValue == JFileChooser.APPROVE_OPTION) {
                 File selectedFile = file.getSelectedFile();

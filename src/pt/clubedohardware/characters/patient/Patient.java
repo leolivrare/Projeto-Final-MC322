@@ -1,6 +1,7 @@
 package pt.clubedohardware.characters.patient;
 
 import pt.clubedohardware.dataset.*;
+import pt.clubedohardware.dialoguecreator.IDialogue;
 
 /**
  *
@@ -32,15 +33,17 @@ public class Patient implements IPatient{
 
         ramdomNumber = (int)(Math.random() * instances.length);
         patientInstance = instances[ramdomNumber];
+        System.out.println("Patient has "+patientInstance[patientInstance.length-1]);
+        System.out.println();
         
     }
     
-    public String ask(String question) {
+    public String ask(String question, IDialogue dialogue) {
         String result = "unknown";
         
         for(int i=0; i<(attributes.length); i++) {
             if (question.equalsIgnoreCase(attributes[i])) {
-                result = (patientInstance[i].equals("1")) ? "1" : "0";
+                result = (patientInstance[i].equals("1") || patientInstance[i].equals("t")) ? "1" : "0";
                 break;
             }
         }

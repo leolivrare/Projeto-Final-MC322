@@ -1,5 +1,6 @@
 package pt.application;
 
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,22 +29,21 @@ public class Application {
 		boolean aux = true;
 		Scanner sc = new Scanner(System.in);
 		IAnimationC animation = new AnimationC();
-		DataOrganizer dataOr = new DataOrganizer();
-		DataSetComponent dataset = new DataSetComponent();
-		IFileUsage fileUsage = new FileUsage();
-		IDialogue dialogue = new DialogueCreator();
-		Tree tree;
-		String[] attributes;
-		int[][] symptomFrequency;
-
-		
-		IDoctor doctor = new Doctor("Doctor Variolla");
-		
-		animation.setDocName("Doctor Variolla");
-		animation.setWindowName("Consultorio");
 		
 		
-		while (aux) {
+		while (aux) {			
+			DataOrganizer dataOr = new DataOrganizer();
+			DataSetComponent dataset = new DataSetComponent();
+			IFileUsage fileUsage = new FileUsage();
+			IDialogue dialogue = new DialogueCreator(0);
+			Tree tree;
+			int[][] symptomFrequency;
+			
+			IDoctor doctor = new Doctor("Doctor Variolla");
+			
+			animation.setDocName("Doctor Variolla");
+			animation.setWindowName("Consultorio");
+			
 			//Deixa o usuario escolher o caminho da tabela ou da serializacao da arvore
 	        String path = Path.getPath(".csv", ".txt");
 			
@@ -51,7 +51,6 @@ public class Application {
 			if (path.contains(".csv")) {
 			    dataset.setDataSource(path);
 			    String[][] instances = dataset.requestInstances();
-			    attributes = dataset.requestAttributes();
 			    
 			    List<String> diseases = dataOr.diseaseFilter(instances);
 			    symptomFrequency = dataOr.symptomFilter(instances, diseases);
@@ -61,6 +60,7 @@ public class Application {
 			    doctor.setTree(tree);
 			} else {
 				String pathCSV = fileUsage.getPathCSV();
+				System.out.println("Path: "+pathCSV);
 				dataset.setDataSource(pathCSV);
 			    symptomFrequency = fileUsage.getFrequency();
 				
@@ -69,8 +69,8 @@ public class Application {
 				doctor.setTree(tree);
 			}
 			
-			System.out.print("Digite o nome do Paciente: ");
-			String patientName = sc.nextLine();
+			System.out.print("Digite o nome do Paciente (somente o primeiro nome): ");
+			String patientName = sc.next();
 			System.out.println();
 			
 			//Instancia o paciente
@@ -83,43 +83,54 @@ public class Application {
 			doctor.startInterview(dialogue);
 			
 
-			String[] falas = (String[]) dialogue.getFalas().toArray();
-			String[] personagem = (String[]) dialogue.getPersonagem().toArray();
+			ArrayList<String> falasL = dialogue.getFalas();
+			ArrayList<String> personagemL = dialogue.getPersonagem();
+			
+			String[] falas = new String[falasL.size()];
+			String[] personagem = new String[personagemL.size()];
+			
+			for(int i=0; i<falasL.size(); i++) {
+				falas[i] = falasL.get(i);
+				personagem[i] = personagemL.get(i);
+			}
 			
 			animation.story(falas, personagem);
+			boolean aux2 = true;
 			
-			while(true) {
+			
+			while(aux2) {
 				System.out.println("Deseja salvar os dados (S/N)?");
 				Character c = sc.next().charAt(0);
 				if (c.equals('S')) {
 					fileUsage.save(tree.getDiseases(), symptomFrequency, tree, path);
 					System.out.println("Dados salvos com sucesso!");
-					break;
+					aux2 = false;
 				}
 				else if (c.equals('N')) {
-					break;
+					aux2 = false;
 				}
 				else {
 					System.out.println("Opcao invalida!");
 				}
 			}
 			
-			while(true) {
+			aux2 = true;
+			
+			while(aux2) {
 				System.out.println("Deseja analisar outro paciente (S/N)?");
 				Character c = sc.next().charAt(0);
 				if (c.equals('S')) {
-					break;
+					aux2 = false;
 				}
 				else if (c.equals('N')) {
 					aux = false;
-					break;
+					aux2 = false;
+					System.exit(0);
 				}
 				else {
 					System.out.println("Opcao invalida!");
 				}
 			}
 		}
-
 	}
-
 }
