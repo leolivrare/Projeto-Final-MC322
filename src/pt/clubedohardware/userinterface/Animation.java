@@ -155,7 +155,7 @@ public class Animation extends javax.swing.JFrame implements IAnimation{
     
     private void writingOn(String fala, String nome){
         if (fala.equals("x897422dsgbvc41") && nome.equals("fdcb414bv")){
-            jTextPane1.setText("Aperte o botão <b>Começar</b> para iniciar a animação...");
+            jTextPane1.setText("Aperte o botao <b>Comecar</b> para iniciar a animacao...");
         }
         else{
             String saida = "";

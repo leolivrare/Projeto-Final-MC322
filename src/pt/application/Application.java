@@ -59,12 +59,13 @@ public class Application {
 			    doctor.connect(dataset);
 			    doctor.setTree(tree);
 			} else {
-				String pathCSV = fileUsage.getPathCSV();
+				String folderName =  Path.getFolderName();
+				String pathCSV = fileUsage.getPathCSV(folderName);
 				System.out.println("Path: "+pathCSV);
 				dataset.setDataSource(pathCSV);
-			    symptomFrequency = fileUsage.getFrequency();
+			    symptomFrequency = fileUsage.getFrequency(folderName);
 				
-				tree = fileUsage.getTree();
+				tree = fileUsage.getTree(folderName);
 				doctor.connect(dataset);
 				doctor.setTree(tree);
 			}

@@ -18,13 +18,13 @@ import java.io.File;
 
 public class Tree implements Serializable{
 	private Node root;
-	private List<Integer> keySymptoms;
+	private List<Integer> keySymptoms, keyCorrespondent, priority;
 	private List<String> diseases;
-	private List<Integer> priority;
 
-	public Tree(Node root, List<Integer> keySymptoms, List<String> diseases, List<Integer> priority){
+	public Tree(Node root, List<Integer> keySymptoms, List<Integer> keyCorrespondent, List<String> diseases, List<Integer> priority){
 		this.root = root;
 		this.keySymptoms = keySymptoms;
+		this.keyCorrespondent = keyCorrespondent;
 		this.diseases = diseases;
 		this.priority = priority;
 	}
@@ -34,8 +34,14 @@ public class Tree implements Serializable{
 		return this.root;
 	}
 	
-	public List<Integer> getKey(){
+	public List<Integer> getKeySymptoms(){
 		return this.keySymptoms;
+	}
+	
+	public List<Integer> getKeyCorrespondent(){return this.keyCorrespondent;}
+	
+	public int getKSDiagnostic(int key) {
+		return this.keyCorrespondent.get(this.keySymptoms.indexOf(key));
 	}
 	
 	public List<String> getDiseases() {
@@ -51,7 +57,6 @@ public class Tree implements Serializable{
 	}
 
 	//Transforma a arvore em um heap
-	@SuppressWarnings("WeakerAccess")
 	public List<Node> toHeap() {
 		List<Node> heap = new ArrayList<>();
 		Deque<Node> fila = new ArrayDeque<>();
@@ -74,6 +79,7 @@ public class Tree implements Serializable{
 			PrintWriter escritor = new PrintWriter(arquivo);
 			escritor.println("@Tree");
 			escritor.println("Sintomas unicos: " + this.keySymptoms);
+			escritor.println("Doencas correnspodentes aos sintomas unicos:"+this.keyCorrespondent);
 			escritor.println("Doencas: "+ this.diseases);
 			escritor.println("Prioridade: " + this.priority);
 			escritor.println("Nos da Arvore");

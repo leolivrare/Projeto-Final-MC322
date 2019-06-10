@@ -22,61 +22,64 @@ public class FileUsage implements IFileUsage{
      *e a arvore de diagnostico(tree)*/
     @Override
     public void save(List<String> diseases, int[][] symptomFrequency, Tree tree, String pathCSV) {
-    	
+    	String[] auxiliar = pathCSV.split("/");
+    	String customFolderName = auxiliar[auxiliar.length-1].replace(".csv", "");
         //Cria um diretorio chamado SerializedData na pasta do projeto
-        boolean ok = new java.io.File("../", "SerializedData").mkdirs();
+        boolean ok = new java.io.File("../", "SerializedData/"+customFolderName).mkdirs();
         
-        serialize(diseases, "diseases.txt");
-        serialize(symptomFrequency, "symptomFrequency.txt");
-        serialize(tree, "tree.txt");
-        serialize(pathCSV, "pathCSV.txt");
+        serialize(diseases, "diseases.txt", customFolderName);
+        serialize(symptomFrequency, "symptomFrequency.txt", customFolderName);
+        serialize(tree, "tree.txt", customFolderName);
+        serialize(pathCSV, "pathCSV.txt", customFolderName);
     }
     
     //Serializa somente tree (arvore de diagnosticos)
     @Override
-    public void save(Tree tree) {
-        boolean ok = new java.io.File("../", "serializedData").mkdirs();
-        serialize(tree, "tree.txt");
+    public void save(Tree tree, String pathCSV) {
+    	String[] auxiliar = pathCSV.split("/");
+    	String customFolderName = auxiliar[auxiliar.length-1].replace(".csv", "");
+    	boolean ok = new java.io.File("../", "SerializedData/"+customFolderName).mkdirs();
+        serialize(tree, "tree.txt", customFolderName);
     }
 
     //Deserializa a lista de doencas
     @Override
     @SuppressWarnings("unchecked")
-    public List<String> getDiseases() {
+    public List<String> getDiseases(String folderName) {
         List<String> diseases;
-        diseases = (ArrayList<String>) deserialize("diseases.txt");
+        diseases = (ArrayList<String>) deserialize("diseases.txt", folderName);
         
         return diseases;
     }
     
-    public String getPathCSV() {
+    public String getPathCSV(String folderName) {
     	String pathCSV;
-    	pathCSV = (String) deserialize("pathCSV.txt");
+    	pathCSV = (String) deserialize("pathCSV.txt", folderName);
     	
     	return pathCSV;
     }
 
     //Deserializa a matriz de frequencia
     @Override
-    public int[][] getFrequency() {
+    public int[][] getFrequency(String folderName) {
         int[][] symptomFrequency;
-        symptomFrequency = (int[][]) deserialize("symptomFrequency.txt");
+        symptomFrequency = (int[][]) deserialize("symptomFrequency.txt", folderName);
         
         return symptomFrequency;
     }
 
     //Deserializa a arvore de diagnosticos
     @Override
-    public Tree getTree() {
+    public Tree getTree(String folderName) {
         Tree tree;
-        tree = (Tree) deserialize("tree.txt");
+        tree = (Tree) deserialize("tree.txt", folderName);
         
         return tree;
     }
     
     //Metodo de serializacao utilizando o recurso padrao do Java
-    private void serialize(Object obj, String arqName) {
-        File arq = new File("../serializedData/"+arqName);
+    private void serialize(Object obj, String arqName, String folderName) {
+        File arq = new File("../serializedData/"+folderName+"/"+arqName);
         try {
             arq.delete();
             arq.createNewFile();
@@ -90,10 +93,10 @@ public class FileUsage implements IFileUsage{
     }
     
     //Metodo de deserializacao utilizando o recurso padrao do Java
-    private Object deserialize(String arqName) {
+    private Object deserialize(String arqName, String folderName) {
         Object obj = null;
         try {
-            File arq = new File("../serializedData/"+arqName);
+            File arq = new File("../serializedData/"+folderName+"/"+arqName);
             
             if (arq.exists()) {
                 ObjectInputStream objInput = new ObjectInputStream(new FileInputStream(arq));

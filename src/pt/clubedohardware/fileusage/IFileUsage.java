@@ -12,10 +12,10 @@ import pt.clubedohardware.node.Tree;
  */
 
 public interface IFileUsage{
-	void save(List<String> diseases, int[][] symptomFrequency, Tree tree, String pathCsv);
-	void save(Tree tree);
-	List<String> getDiseases();
-	int[][] getFrequency();
-	Tree getTree();
-	String getPathCSV();
+	void save(List<String> diseases, int[][] symptomFrequency, Tree tree, String pathCSV);
+	void save(Tree tree, String pathCSV);
+	List<String> getDiseases(String folderName);
+	int[][] getFrequency(String folderName);
+	Tree getTree(String folderName);
+	String getPathCSV(String folderName);
 }
