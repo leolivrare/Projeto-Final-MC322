@@ -39,7 +39,7 @@ public class Patient implements IPatient{
     }
     
     public String ask(String question, IDialogue dialogue) {
-        String result = "unknown";
+        String result = "Nao sei";
         
         for(int i=0; i<(attributes.length); i++) {
             if (question.equalsIgnoreCase(attributes[i])) {

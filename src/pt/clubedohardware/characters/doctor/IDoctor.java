@@ -1,6 +1,6 @@
 package pt.clubedohardware.characters.doctor;
 
-import pt.clubedohardware.dataset.*;
+import pt.clubedohardware.dataset.ITableProducerReceptacle;
 import pt.clubedohardware.node.Tree;
 
 /**

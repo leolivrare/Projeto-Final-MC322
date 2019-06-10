@@ -23,6 +23,7 @@ import pt.clubedohardware.node.Tree;
 import pt.clubedohardware.userinterface.AnimationC;
 import pt.clubedohardware.userinterface.IAnimationC;
 
+
 public class Application {
 
 	public static void main(String[] args) {

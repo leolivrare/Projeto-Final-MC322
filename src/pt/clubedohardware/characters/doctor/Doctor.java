@@ -54,7 +54,7 @@ public class Doctor implements IDoctor{
     	dialogue.addPatientSpeech("Oi, "+name);
     	dialogue.addPatientSpeech("Oi, "+name+"! Nao estou me sentindo bem...");
     	dialogue.addDoctorSpeech("Ola, "+patient.getName());
-    	dialogue.addDoctorSpeech("Irei te examinar para ver como posso te ajudar!");
+    	dialogue.addDoctorSpeech("Irei te fazer algumas perguntas para te examinar, ok?");
     	dialogue.addPatientSpeech("Ok!");
     	
         Node node = tree.getRoot();
@@ -66,7 +66,7 @@ public class Doctor implements IDoctor{
             	dialogue.addPatientSpeech(answer);
             	
             	if (answer.equals("Sim")) {
-            		diagnostic = diagnostic + diseases.get(tree.getKSDiagnostic(x)) + " ";
+            		diagnostic = diagnostic + diseases.get(tree.getKSDiagnostic(x)) + " e ";
             		verificador  = true;
             	}
         	}
@@ -87,9 +87,12 @@ public class Doctor implements IDoctor{
 	        
 	        List<Integer> patientDiseases = node.getDiseases();
 	        for(Integer x : patientDiseases) {
-	        	diagnostic = diagnostic + diseases.get(x) + " ";
+	        	diagnostic = diagnostic + diseases.get(x) + " e ";
 	        }
         }
+        
+        
+        diagnostic = diagnostic.substring(0, diagnostic.lastIndexOf(" e "));
         
         dialogue.addDoctorSpeech("Infelizmente voce esta com "+diagnostic);
     }
