@@ -32,7 +32,6 @@ public class Application {
 		DataOrganizer dataOr = new DataOrganizer();
 		DataSetComponent dataset = new DataSetComponent();
 		IFileUsage fileUsage = new FileUsage();
-		IDialogue dialogue = new DialogueCreator(0);
 		Tree tree;
 		int[][] symptomFrequency;
 			
@@ -85,6 +84,8 @@ public class Application {
 		aux = true;
 		
 		while (aux) {	
+			IDialogue dialogue = new DialogueCreator(0);
+			
 			System.out.print("Digite o nome do Paciente (somente o primeiro nome): ");
 			String patientName = sc.next();
 			System.out.println();
@@ -128,6 +129,8 @@ public class Application {
 					System.out.println("Opcao invalida!");
 				}
 			}
+			
+			doctor.resetDiagnostic();
 		}
 	}
 }

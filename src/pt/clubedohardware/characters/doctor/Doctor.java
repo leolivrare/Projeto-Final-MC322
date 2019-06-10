@@ -41,6 +41,10 @@ public class Doctor implements IDoctor{
         this.patient = patient;
     }
     
+    public void resetDiagnostic() {
+    	diagnostic = "";
+    }
+    
     public void startInterview(IDialogue dialogue) {
     	String[] attributes = producer.requestAttributes();	
     	String answer;

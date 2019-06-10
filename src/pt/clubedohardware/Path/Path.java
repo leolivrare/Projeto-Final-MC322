@@ -35,6 +35,7 @@ public class Path {
 	public static String getFolderName() {
 		String path = null;
 		JFileChooser file = new JFileChooser("../SerializedData");
+		file.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         int returnValue = file.showOpenDialog(null);
         if (returnValue == JFileChooser.APPROVE_OPTION) {
             File selectedFile = file.getSelectedFile();
