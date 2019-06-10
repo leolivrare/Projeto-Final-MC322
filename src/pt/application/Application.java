@@ -8,6 +8,13 @@ import java.util.Scanner;
 
 import javax.swing.JFileChooser;
 
+import jsmaiorjava.implementations.ImprimeAtestado;
+import jsmaiorjava.implementations.Prontuario;
+import jsmaiorjava.implementations.Tratamento;
+import jsmaiorjava.implementations.ZumbiTwittero;
+import jsmaiorjava.interfaces.IImprimeAtestado;
+import jsmaiorjava.interfaces.IProntuario;
+import jsmaiorjava.interfaces.ITratamento;
 import pt.clubedohardware.Path.Path;
 import pt.clubedohardware.characters.doctor.Doctor;
 import pt.clubedohardware.characters.doctor.IDoctor;
@@ -99,6 +106,18 @@ public class Application {
 			//Conecta o doutor com o paciente
 			doctor.connect(patient);
 			doctor.startInterview(dialogue);
+			
+			ITratamento tratamento = new Tratamento(doctor.getDiagnostic());
+			IProntuario prontuario = new Prontuario(tratamento, patient.getName(), doctor.getName());
+			IImprimeAtestado atestado = new ImprimeAtestado(prontuario);
+			atestado.imprime();
+			
+			ZumbiTwittero zt = new ZumbiTwittero(prontuario,
+                    "GRANDE DIA:\n" +
+                            doctor.getName()+" está cuidando de "+patient.getName()+", que maldosamente contraiu "+doctor.getDiagnostic()+".\n" +
+                            "Pra não morrer terá que "+tratamento.getTratamento()+". \n ATÉ MAIS");
+			
+			zt.twittar();
 			
 
 			ArrayList<String> falasL = dialogue.getFalas();

@@ -3,6 +3,8 @@ package pt.clubedohardware.characters.doctor;
 import java.util.ArrayList;
 import java.util.List;
 
+import jsmaiorjava.implementations.Tratamento;
+import jsmaiorjava.interfaces.ITratamento;
 import pt.clubedohardware.characters.patient.IResponder;
 import pt.clubedohardware.dataorganizer.DataOrganizer;
 import pt.clubedohardware.dataset.*;
@@ -25,6 +27,14 @@ public class Doctor implements IDoctor{
     
     public void setTree(Tree tree) {
     	this.tree = tree;
+    }
+    
+    public String getDiagnostic() {
+    	return diagnostic;
+    }
+    
+    public String getName() {
+    	return name;
     }
     
     public void connect(ITableProducer producer) {
@@ -95,6 +105,9 @@ public class Doctor implements IDoctor{
         diagnostic = diagnostic.substring(0, diagnostic.lastIndexOf(" e "));
         
         dialogue.addDoctorSpeech("Infelizmente voce esta com "+diagnostic);
+        
+        ITratamento tratamento = new Tratamento(diagnostic);
+        dialogue.addDoctorSpeech("Mas fique tranquilo, basta voce "+tratamento.getTratamento()+" que ficara tudo bem!");
     }
 }
 

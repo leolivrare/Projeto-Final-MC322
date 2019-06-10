@@ -6,5 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/leonardolivraremartins/Desktop/js_maior_java.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
