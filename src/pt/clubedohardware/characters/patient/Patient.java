@@ -43,7 +43,7 @@ public class Patient implements IPatient{
         
         for(int i=0; i<(attributes.length); i++) {
             if (question.equalsIgnoreCase(attributes[i])) {
-                result = (patientInstance[i].equals("1") || patientInstance[i].equals("t")) ? "1" : "0";
+                result = (patientInstance[i].equals("1") || patientInstance[i].equals("t")) ? "Sim" : "Nao";
                 break;
             }
         }

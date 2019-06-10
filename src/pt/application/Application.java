@@ -35,9 +35,9 @@ public class Application {
 		Tree tree;
 		int[][] symptomFrequency;
 			
-		IDoctor doctor = new Doctor("Doctor Variolla");
+		IDoctor doctor = new Doctor("Doutor Variolla");
 			
-		animation.setDocName("Doctor Variolla");
+		animation.setDocName("Doutor Variolla");
 		animation.setWindowName("Consultorio");
 			
 		//Deixa o usuario escolher o caminho da tabela ou da serializacao da arvore

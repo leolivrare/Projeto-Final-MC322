@@ -47,31 +47,51 @@ public class Doctor implements IDoctor{
     
     public void startInterview(IDialogue dialogue) {
     	String[] attributes = producer.requestAttributes();	
+        List<String> diseases = tree.getDiseases();
     	String answer;
-    	dialogue.addPatientSpeech("Hi, "+name);
-    	dialogue.addPatientSpeech("Hi, "+name);
-    	dialogue.addDoctorSpeech("Hi, "+patient.getName());
+    	boolean verificador = false;
+    	
+    	dialogue.addPatientSpeech("Oi, "+name);
+    	dialogue.addPatientSpeech("Oi, "+name+"! Nao estou me sentindo bem...");
+    	dialogue.addDoctorSpeech("Ola, "+patient.getName());
+    	dialogue.addDoctorSpeech("Irei te examinar para ver como posso te ajudar!");
+    	dialogue.addPatientSpeech("Ok!");
     	
         Node node = tree.getRoot();
         
-        while (!(node.getDiagnostico())) {
-        	dialogue.addDoctorSpeech(attributes[node.getSymptom()]);
-        	answer = patient.ask(attributes[node.getSymptom()], dialogue);
-        	dialogue.addPatientSpeech(answer);
-        	if(answer.equals("1")) {
-        		node = node.getEsquerdo();
+        if (!(tree.getKeySymptoms().isEmpty())) {
+        	for(Integer x : tree.getKeySymptoms()) {
+        		dialogue.addDoctorSpeech(attributes[x]);
+            	answer = patient.ask(attributes[x], dialogue);
+            	dialogue.addPatientSpeech(answer);
+            	
+            	if (answer.equals("Sim")) {
+            		diagnostic = diagnostic + diseases.get(tree.getKSDiagnostic(x)) + " ";
+            		verificador  = true;
+            	}
         	}
-        	else {
-        		node = node.getDireito();
-        	}
-        }
-        List<Integer> patientDiseases = node.getDiseases();
-        List<String> diseases = tree.getDiseases();
-        for(Integer x : patientDiseases) {
-        	diagnostic = diagnostic + diseases.get(x);
         }
         
-        dialogue.addDoctorSpeech(diagnostic);
+        if (!verificador) {
+	        while (!(node.getDiagnostico())) {
+	        	dialogue.addDoctorSpeech(attributes[node.getSymptom()]);
+	        	answer = patient.ask(attributes[node.getSymptom()], dialogue);
+	        	dialogue.addPatientSpeech(answer);
+	        	if(answer.equals("Sim")) {
+	        		node = node.getEsquerdo();
+	        	}
+	        	else {
+	        		node = node.getDireito();
+	        	}
+	        }
+	        
+	        List<Integer> patientDiseases = node.getDiseases();
+	        for(Integer x : patientDiseases) {
+	        	diagnostic = diagnostic + diseases.get(x) + " ";
+	        }
+        }
+        
+        dialogue.addDoctorSpeech("Infelizmente voce esta com "+diagnostic);
     }
 }
 
