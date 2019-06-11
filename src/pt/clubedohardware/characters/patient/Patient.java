@@ -49,4 +49,9 @@ public class Patient implements IPatient{
         }
         return result;
     }
+    
+    @Override
+    public String getRealDisease() {
+    	return this.patientInstance[this.patientInstance.length-1];
+    }
 }

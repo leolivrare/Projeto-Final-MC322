@@ -7,5 +7,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/leonardolivraremartins/eclipse-workspace/tabalhoFinal/src/pt/jars/js_maior_java.jar"/>
+	<classpathentry kind="lib" path="lib/js_maior_java.jar"/>
+	<classpathentry kind="lib" path="lib/Supervisor.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

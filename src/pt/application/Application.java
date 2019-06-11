@@ -8,6 +8,8 @@ import java.util.Scanner;
 
 import javax.swing.JFileChooser;
 
+import zumbi.Componentes.Supervisor.*;
+import zumbi.Interfaces.ISupervisor.*;
 import jsmaiorjava.implementations.ImprimeAtestado;
 import jsmaiorjava.implementations.Prontuario;
 import jsmaiorjava.implementations.Tratamento;
@@ -41,8 +43,8 @@ public class Application {
 		DataSetComponent dataset = new DataSetComponent();
 		IFileUsage fileUsage = new FileUsage();
 		Tree tree;
+		ISupervisor supervisor;
 		int[][] symptomFrequency;
-			
 		IDoctor doctor = new Doctor("Doutor Variolla");
 			
 		animation.setDocName("Doutor Variolla");
@@ -53,6 +55,7 @@ public class Application {
 			
 		//Se ele escolher a tabela o programa ira construir a arvore, se ele escolher a arvore o jogo ira carregar ela
 		if (path.contains(".csv")) {
+			supervisor = FabricaSupervisor.criarSupervisor();
 			dataset.setDataSource(path);
 			String[][] instances = dataset.requestInstances();
 			    
@@ -65,6 +68,8 @@ public class Application {
 		} else {
 			String folderName =  Path.getFolderName();
 			String pathCSV = fileUsage.getPathCSV(folderName);
+			String pathAux[] = pathCSV.split("/");
+			supervisor = FabricaSupervisor.criarSupervisor("../SerializedData/FolderNanem/Supervisor-"+pathAux[pathAux.length-1].replace(".csv", ""));
 			dataset.setDataSource(pathCSV);
 			symptomFrequency = fileUsage.getFrequency(folderName);
 				
@@ -106,14 +111,15 @@ public class Application {
 			doctor.connect(patient);
 			doctor.startInterview(dialogue);
 			
-			ITratamento tratamento = new Tratamento(doctor.getDiagnostic());
+			ITratamento tratamento = new Tratamento(doctor.getFinalDiagnostic());
 			IProntuario prontuario = new Prontuario(tratamento, patient.getName(), doctor.getName());
 			IImprimeAtestado atestado = new ImprimeAtestado(prontuario);
 			atestado.imprime();
+			supervisor.reportar(doctor.getFinalDiagnostic(), patient.getRealDisease());
 			
 			ZumbiTwittero zt = new ZumbiTwittero(prontuario,
                     "GRANDE DIA:\n" +
-                            doctor.getName()+" está cuidando de "+patient.getName()+", que maldosamente contraiu "+doctor.getDiagnostic()+".\n" +
+                            doctor.getName()+" está cuidando de "+patient.getName()+", que maldosamente contraiu "+doctor.getFinalDiagnostic()+".\n" +
                             "Pra não morrer terá que "+tratamento.getTratamento()+". \n ATÉ MAIS");
 			
 			zt.twittar();

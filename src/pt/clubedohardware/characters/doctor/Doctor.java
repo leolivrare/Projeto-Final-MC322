@@ -17,8 +17,8 @@ import pt.clubedohardware.node.Tree;
  * @author leonardolivraremartins
  */
 public class Doctor implements IDoctor{
-    private String name;
-    private String diagnostic;
+    private String name, finalDiagnostic;
+    private List<Integer> diagnosticAuxiliar;
 	
     private Tree tree;
     private IResponder patient;
@@ -29,9 +29,10 @@ public class Doctor implements IDoctor{
     	this.tree = tree;
     }
     
-    public String getDiagnostic() {
-    	return diagnostic;
+    public String getFinalDiagnostic() {
+    	return this.finalDiagnostic;
     }
+    
     
     public String getName() {
     	return name;
@@ -43,7 +44,7 @@ public class Doctor implements IDoctor{
   
     public Doctor(String name) {
 		this.name = name;
-		diagnostic = "";
+		diagnosticAuxiliar = new ArrayList<>();
 	}
 
     
@@ -52,9 +53,21 @@ public class Doctor implements IDoctor{
     }
     
     public void resetDiagnostic() {
-    	diagnostic = "";
+    	diagnosticAuxiliar.clear();
     }
     
+    public String generateStringDiagnostic() {
+    	String retorno = "";
+    	for(int index : this.diagnosticAuxiliar) {
+    		retorno = retorno + tree.getDiseases().get(index) + " ou "; 
+    	}
+    	retorno = retorno.substring(0, retorno.lastIndexOf(" ou "));
+    	return retorno;
+    }
+    
+    private void createFinalDiagnostic() {
+    	this.finalDiagnostic = this.tree.getDiseases().get((int)Math.random() * this.diagnosticAuxiliar.size());
+    }
     public void startInterview(IDialogue dialogue) {
     	String[] attributes = producer.requestAttributes();	
         List<String> diseases = tree.getDiseases();
@@ -76,7 +89,7 @@ public class Doctor implements IDoctor{
             	dialogue.addPatientSpeech(answer+"!");
             	
             	if (answer.equals("Sim")) {
-            		diagnostic = diagnostic + diseases.get(tree.getKSDiagnostic(x)) + " e ";
+            		diagnosticAuxiliar.add(tree.getKSDiagnostic(x));
             		verificador  = true;
             	}
         	}
@@ -95,18 +108,20 @@ public class Doctor implements IDoctor{
 	        	}
 	        }
 	        
-	        List<Integer> patientDiseases = node.getDiseases();
-	        for(Integer x : patientDiseases) {
-	        	diagnostic = diagnostic + diseases.get(x) + " e ";
-	        }
+	        diagnosticAuxiliar = node.getDiseases();
+	       
+        }
+       createFinalDiagnostic();
+        if (node.getFilled() && node.getFilledPower() <= 2) {
+        	dialogue.addDoctorSpeech("Não tenho tanta certeza , mas acredito que você esteja com "+generateStringDiagnostic()+". Mais provavelmente "+this.finalDiagnostic);
+        } else if (node.getFilled() && node.getFilledPower() > 2) {
+        	dialogue.addDoctorSpeech("Estou muito na dúvida. Gostaria de pedir alguns exames,  mas acredito que você esteja com "+generateStringDiagnostic()+". Mais provavelmente "+this.finalDiagnostic);
+        } else {
+        	dialogue.addDoctorSpeech("Infelizmente voce esta com "+generateStringDiagnostic());
+            dialogue.addDoctorSpeech("Acredito que seu quadro seja de "+this.finalDiagnostic);
         }
         
-        
-        diagnostic = diagnostic.substring(0, diagnostic.lastIndexOf(" e "));
-        
-        dialogue.addDoctorSpeech("Infelizmente voce esta com "+diagnostic);
-        
-        ITratamento tratamento = new Tratamento(diagnostic);
+        ITratamento tratamento = new Tratamento(this.finalDiagnostic);
         dialogue.addDoctorSpeech("Mas fique tranquilo, basta voce "+tratamento.getTratamento()+" que ficara tudo bem!");
     }
 }
