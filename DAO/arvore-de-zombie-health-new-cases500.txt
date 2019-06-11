@@ -1,0 +1,4100 @@
+@Tree
+Sintomas unicos: []
+Doencas: [Zulombriga, Briga, Gripe Aviaria, Infecção Bacteriana, T-Virus, Infecção Viral]
+Prioridade: [0, 6, 4, 1, 2, 5, 3, 7]
+Nos da Arvore
+@Node 0
+Sintoma: 0
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+@Node 1
+Sintoma: 6
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, -1, -1, -1, -1]
+
+@Node 2
+Sintoma: 6
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, -1, -1, -1, -1]
+
+@Node 3
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, -1, -1, 1, -1]
+
+@Node 4
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, -1, -1, 0, -1]
+
+@Node 5
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, -1, -1, 1, -1]
+
+@Node 6
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, -1, -1, 0, -1]
+
+@Node 7
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, 1, -1, 1, -1]
+
+@Node 8
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, 0, -1, 1, -1]
+
+@Node 9
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, 1, -1, 0, -1]
+
+@Node 10
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, -1, -1, 0, -1, 0, -1]
+
+@Node 11
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, 1, -1, 1, -1]
+
+@Node 12
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, 0, -1, 1, -1]
+
+@Node 13
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, 1, -1, 0, -1]
+
+@Node 14
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, -1, -1, 0, -1, 0, -1]
+
+@Node 15
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, -1, -1, 1, -1, 1, -1]
+
+@Node 16
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, -1, -1, 1, -1, 1, -1]
+
+@Node 17
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, -1, -1, 0, -1, 1, -1]
+
+@Node 18
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, -1, -1, 0, -1, 1, -1]
+
+@Node 19
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, -1, -1, 1, -1, 0, -1]
+
+@Node 20
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, -1, -1, 1, -1, 0, -1]
+
+@Node 21
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, -1, -1, 0, -1, 0, -1]
+
+@Node 22
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, -1, -1, 0, -1, 0, -1]
+
+@Node 23
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, -1, -1, 1, -1, 1, -1]
+
+@Node 24
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, -1, -1, 1, -1, 1, -1]
+
+@Node 25
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, -1, -1, 0, -1, 1, -1]
+
+@Node 26
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, -1, -1, 0, -1, 1, -1]
+
+@Node 27
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, -1, -1, 1, -1, 0, -1]
+
+@Node 28
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, -1, -1, 1, -1, 0, -1]
+
+@Node 29
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, -1, -1, 0, -1, 0, -1]
+
+@Node 30
+Sintoma: 2
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, -1, -1, 0, -1, 0, -1]
+
+@Node 31
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 1, -1, 1, -1]
+
+@Node 32
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, -1, 1, -1]
+
+@Node 33
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 1, -1, 1, -1]
+
+@Node 34
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, -1, 1, -1]
+
+@Node 35
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 0, -1, 1, -1]
+
+@Node 36
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, -1, 1, -1]
+
+@Node 37
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 0, -1, 1, -1]
+
+@Node 38
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, -1, 1, -1]
+
+@Node 39
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 1, -1, 0, -1]
+
+@Node 40
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, -1, 0, -1]
+
+@Node 41
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 1, -1, 0, -1]
+
+@Node 42
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, -1, 0, -1]
+
+@Node 43
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 0, -1, 0, -1]
+
+@Node 44
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, -1, 0, -1]
+
+@Node 45
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 0, -1, 0, -1]
+
+@Node 46
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, -1, 0, -1]
+
+@Node 47
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 1, -1, 1, -1]
+
+@Node 48
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, -1, 1, -1]
+
+@Node 49
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 1, -1, 1, -1]
+
+@Node 50
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, -1, 1, -1]
+
+@Node 51
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 0, -1, 1, -1]
+
+@Node 52
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, -1, 1, -1]
+
+@Node 53
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 0, -1, 1, -1]
+
+@Node 54
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, -1, 1, -1]
+
+@Node 55
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 1, -1, 0, -1]
+
+@Node 56
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, -1, 0, -1]
+
+@Node 57
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 1, -1, 0, -1]
+
+@Node 58
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, -1, 0, -1]
+
+@Node 59
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 0, -1, 0, -1]
+
+@Node 60
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, -1, 0, -1]
+
+@Node 61
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 0, -1, 0, -1]
+
+@Node 62
+Sintoma: 5
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, -1, 0, -1]
+
+@Node 63
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 1, 1, 1, -1]
+
+@Node 64
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 1, 0, 1, -1]
+
+@Node 65
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, 1, 1, -1]
+
+@Node 66
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, 0, 1, -1]
+
+@Node 67
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 1, 1, 1, -1]
+
+@Node 68
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 1, 0, 1, -1]
+
+@Node 69
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, 1, 1, -1]
+
+@Node 70
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, 0, 1, -1]
+
+@Node 71
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 0, 1, 1, -1]
+
+@Node 72
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 0, 0, 1, -1]
+
+@Node 73
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, 1, 1, -1]
+
+@Node 74
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, 0, 1, -1]
+
+@Node 75
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 0, 1, 1, -1]
+
+@Node 76
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 0, 0, 1, -1]
+
+@Node 77
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, 1, 1, -1]
+
+@Node 78
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, 0, 1, -1]
+
+@Node 79
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 1, 1, 0, -1]
+
+@Node 80
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 1, 0, 0, -1]
+
+@Node 81
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, 1, 0, -1]
+
+@Node 82
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, 0, 0, -1]
+
+@Node 83
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 1, 1, 0, -1]
+
+@Node 84
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 1, 0, 0, -1]
+
+@Node 85
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, 1, 0, -1]
+
+@Node 86
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, 0, 0, -1]
+
+@Node 87
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 0, 1, 0, -1]
+
+@Node 88
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, -1, 0, 0, 0, -1]
+
+@Node 89
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, 1, 0, -1]
+
+@Node 90
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, 0, 0, -1]
+
+@Node 91
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 0, 1, 0, -1]
+
+@Node 92
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, -1, 0, 0, 0, -1]
+
+@Node 93
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, 1, 0, -1]
+
+@Node 94
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, 0, 0, -1]
+
+@Node 95
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 1, 1, 1, -1]
+
+@Node 96
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 1, 0, 1, -1]
+
+@Node 97
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, 1, 1, -1]
+
+@Node 98
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, 0, 1, -1]
+
+@Node 99
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 1, 1, 1, -1]
+
+@Node 100
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 1, 0, 1, -1]
+
+@Node 101
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, 1, 1, -1]
+
+@Node 102
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, 0, 1, -1]
+
+@Node 103
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 0, 1, 1, -1]
+
+@Node 104
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 0, 0, 1, -1]
+
+@Node 105
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, 1, 1, -1]
+
+@Node 106
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, 0, 1, -1]
+
+@Node 107
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 0, 1, 1, -1]
+
+@Node 108
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 0, 0, 1, -1]
+
+@Node 109
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, 1, 1, -1]
+
+@Node 110
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, 0, 1, -1]
+
+@Node 111
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 1, 1, 0, -1]
+
+@Node 112
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 1, 0, 0, -1]
+
+@Node 113
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, 1, 0, -1]
+
+@Node 114
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, 0, 0, -1]
+
+@Node 115
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 1, 1, 0, -1]
+
+@Node 116
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 1, 0, 0, -1]
+
+@Node 117
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, 1, 0, -1]
+
+@Node 118
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, 0, 0, -1]
+
+@Node 119
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 0, 1, 0, -1]
+
+@Node 120
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, -1, 0, 0, 0, -1]
+
+@Node 121
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, 1, 0, -1]
+
+@Node 122
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, 0, 0, -1]
+
+@Node 123
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 0, 1, 0, -1]
+
+@Node 124
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, -1, 0, 0, 0, -1]
+
+@Node 125
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, 1, 0, -1]
+
+@Node 126
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, 0, 0, -1]
+
+@Node 127
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 1, 1, 1, -1]
+
+@Node 128
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 1, 1, 1, -1]
+
+@Node 129
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 1, 0, 1, -1]
+
+@Node 130
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 1, 0, 1, -1]
+
+@Node 131
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 1, 1, 1, -1]
+
+@Node 132
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 1, 1, 1, -1]
+
+@Node 133
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 1, 0, 1, -1]
+
+@Node 134
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 1, 0, 1, -1]
+
+@Node 135
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 1, 1, 1, -1]
+
+@Node 136
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 1, 1, 1, -1]
+
+@Node 137
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 1, 0, 1, -1]
+
+@Node 138
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 1, 0, 1, -1]
+
+@Node 139
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 1, 1, 1, -1]
+
+@Node 140
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 1, 1, 1, -1]
+
+@Node 141
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 1, 0, 1, -1]
+
+@Node 142
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 1, 0, 1, -1]
+
+@Node 143
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 0, 1, 1, -1]
+
+@Node 144
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 0, 1, 1, -1]
+
+@Node 145
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 0, 0, 1, -1]
+
+@Node 146
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 0, 0, 1, -1]
+
+@Node 147
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 0, 1, 1, -1]
+
+@Node 148
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 0, 1, 1, -1]
+
+@Node 149
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 0, 0, 1, -1]
+
+@Node 150
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 0, 0, 1, -1]
+
+@Node 151
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 0, 1, 1, -1]
+
+@Node 152
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 0, 1, 1, -1]
+
+@Node 153
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 0, 0, 1, -1]
+
+@Node 154
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 0, 0, 1, -1]
+
+@Node 155
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 0, 1, 1, -1]
+
+@Node 156
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 0, 1, 1, -1]
+
+@Node 157
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 0, 0, 1, -1]
+
+@Node 158
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 0, 0, 1, -1]
+
+@Node 159
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 1, 1, 0, -1]
+
+@Node 160
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 1, 1, 0, -1]
+
+@Node 161
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 1, 0, 0, -1]
+
+@Node 162
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 1, 0, 0, -1]
+
+@Node 163
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 1, 1, 0, -1]
+
+@Node 164
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 1, 1, 0, -1]
+
+@Node 165
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 1, 0, 0, -1]
+
+@Node 166
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 1, 0, 0, -1]
+
+@Node 167
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 1, 1, 0, -1]
+
+@Node 168
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 1, 1, 0, -1]
+
+@Node 169
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 1, 0, 0, -1]
+
+@Node 170
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 1, 0, 0, -1]
+
+@Node 171
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 1, 1, 0, -1]
+
+@Node 172
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 1, 1, 0, -1]
+
+@Node 173
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 1, 0, 0, -1]
+
+@Node 174
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 1, 0, 0, -1]
+
+@Node 175
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 0, 1, 0, -1]
+
+@Node 176
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 0, 1, 0, -1]
+
+@Node 177
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 1, 0, 0, 0, -1]
+
+@Node 178
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 1, 0, 0, 0, 0, -1]
+
+@Node 179
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 0, 1, 0, -1]
+
+@Node 180
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 0, 1, 0, -1]
+
+@Node 181
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 1, 0, 0, 0, -1]
+
+@Node 182
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, 0, 0, 0, 0, -1]
+
+@Node 183
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 0, 1, 0, -1]
+
+@Node 184
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 0, 1, 0, -1]
+
+@Node 185
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 1, 0, 0, 0, -1]
+
+@Node 186
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 1, 0, 0, 0, 0, -1]
+
+@Node 187
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 0, 1, 0, -1]
+
+@Node 188
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 0, 1, 0, -1]
+
+@Node 189
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 1, 0, 0, 0, -1]
+
+@Node 190
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, 0, 0, 0, 0, -1]
+
+@Node 191
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 1, 1, 1, -1]
+
+@Node 192
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 1, 1, 1, -1]
+
+@Node 193
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 1, 0, 1, -1]
+
+@Node 194
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 1, 0, 1, -1]
+
+@Node 195
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 1, 1, 1, -1]
+
+@Node 196
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 1, 1, 1, -1]
+
+@Node 197
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 1, 0, 1, -1]
+
+@Node 198
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 1, 0, 1, -1]
+
+@Node 199
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 1, 1, 1, -1]
+
+@Node 200
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 1, 1, 1, -1]
+
+@Node 201
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 1, 0, 1, -1]
+
+@Node 202
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 1, 0, 1, -1]
+
+@Node 203
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 1, 1, 1, -1]
+
+@Node 204
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 1, 1, 1, -1]
+
+@Node 205
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 1, 0, 1, -1]
+
+@Node 206
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 1, 0, 1, -1]
+
+@Node 207
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 0, 1, 1, -1]
+
+@Node 208
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 0, 1, 1, -1]
+
+@Node 209
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 0, 0, 1, -1]
+
+@Node 210
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 0, 0, 1, -1]
+
+@Node 211
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 0, 1, 1, -1]
+
+@Node 212
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 0, 1, 1, -1]
+
+@Node 213
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 0, 0, 1, -1]
+
+@Node 214
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 0, 0, 1, -1]
+
+@Node 215
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 0, 1, 1, -1]
+
+@Node 216
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 0, 1, 1, -1]
+
+@Node 217
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 0, 0, 1, -1]
+
+@Node 218
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 0, 0, 1, -1]
+
+@Node 219
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 0, 1, 1, -1]
+
+@Node 220
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 0, 1, 1, -1]
+
+@Node 221
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 0, 0, 1, -1]
+
+@Node 222
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 0, 0, 1, -1]
+
+@Node 223
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 1, 1, 0, -1]
+
+@Node 224
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 1, 1, 0, -1]
+
+@Node 225
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 1, 0, 0, -1]
+
+@Node 226
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 1, 0, 0, -1]
+
+@Node 227
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 1, 1, 0, -1]
+
+@Node 228
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 1, 1, 0, -1]
+
+@Node 229
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 1, 0, 0, -1]
+
+@Node 230
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 1, 0, 0, -1]
+
+@Node 231
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 1, 1, 0, -1]
+
+@Node 232
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 1, 1, 0, -1]
+
+@Node 233
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 1, 0, 0, -1]
+
+@Node 234
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 1, 0, 0, -1]
+
+@Node 235
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 1, 1, 0, -1]
+
+@Node 236
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 1, 1, 0, -1]
+
+@Node 237
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 1, 0, 0, -1]
+
+@Node 238
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 1, 0, 0, -1]
+
+@Node 239
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 0, 1, 0, -1]
+
+@Node 240
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 0, 1, 0, -1]
+
+@Node 241
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 1, 0, 0, 0, -1]
+
+@Node 242
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 1, 0, 0, 0, 0, -1]
+
+@Node 243
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 0, 1, 0, -1]
+
+@Node 244
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 0, 1, 0, -1]
+
+@Node 245
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 1, 0, 0, 0, -1]
+
+@Node 246
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, 0, 0, 0, 0, -1]
+
+@Node 247
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 0, 1, 0, -1]
+
+@Node 248
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 0, 1, 0, -1]
+
+@Node 249
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 1, 0, 0, 0, -1]
+
+@Node 250
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 1, 0, 0, 0, 0, -1]
+
+@Node 251
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 0, 1, 0, -1]
+
+@Node 252
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 0, 1, 0, -1]
+
+@Node 253
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 1, 0, 0, 0, -1]
+
+@Node 254
+Sintoma: 7
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, 0, 0, 0, 0, -1]
+
+@Node 255
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [3]
+Path: [1, 1, 1, 1, 1, 1, 1, 1]
+
+@Node 256
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 4
+Doencas: [0, 1, 3, 5]
+Path: [1, 1, 1, 1, 1, 1, 1, 0]
+
+@Node 257
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [2, 3]
+Path: [1, 1, 1, 0, 1, 1, 1, 1]
+
+@Node 258
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [3]
+Path: [1, 1, 1, 0, 1, 1, 1, 0]
+
+@Node 259
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 1, 1, 0, 1, 1]
+
+@Node 260
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [0, 3, 5]
+Path: [1, 1, 1, 1, 1, 0, 1, 0]
+
+@Node 261
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [2, 3]
+Path: [1, 1, 1, 0, 1, 0, 1, 1]
+
+@Node 262
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 0, 1, 0, 1, 0]
+
+@Node 263
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 0, 1, 1, 1, 1, 1]
+
+@Node 264
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1, 3, 5]
+Path: [1, 1, 0, 1, 1, 1, 1, 0]
+
+@Node 265
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [2, 3]
+Path: [1, 1, 0, 0, 1, 1, 1, 1]
+
+@Node 266
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 0, 0, 1, 1, 1, 0]
+
+@Node 267
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 1, 1, 0, 1, 1]
+
+@Node 268
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 5]
+Path: [1, 1, 0, 1, 1, 0, 1, 0]
+
+@Node 269
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2, 3]
+Path: [1, 1, 0, 0, 1, 0, 1, 1]
+
+@Node 270
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 0, 1, 0, 1, 0]
+
+@Node 271
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1]
+Path: [1, 0, 1, 1, 1, 1, 1, 1]
+
+@Node 272
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1, 5]
+Path: [1, 0, 1, 1, 1, 1, 1, 0]
+
+@Node 273
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 1, 2]
+Path: [1, 0, 1, 0, 1, 1, 1, 1]
+
+@Node 274
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 1, 5, 2]
+Path: [1, 0, 1, 0, 1, 1, 1, 0]
+
+@Node 275
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [3, 5, 2]
+Path: [1, 0, 1, 1, 1, 0, 1, 1]
+
+@Node 276
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [5]
+Path: [1, 0, 1, 1, 1, 0, 1, 0]
+
+@Node 277
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [2]
+Path: [1, 0, 1, 0, 1, 0, 1, 1]
+
+@Node 278
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [5, 2]
+Path: [1, 0, 1, 0, 1, 0, 1, 0]
+
+@Node 279
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1]
+Path: [1, 0, 0, 1, 1, 1, 1, 1]
+
+@Node 280
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 5]
+Path: [1, 0, 0, 1, 1, 1, 1, 0]
+
+@Node 281
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 2]
+Path: [1, 0, 0, 0, 1, 1, 1, 1]
+
+@Node 282
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 5, 2]
+Path: [1, 0, 0, 0, 1, 1, 1, 0]
+
+@Node 283
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 5, 2]
+Path: [1, 0, 0, 1, 1, 0, 1, 1]
+
+@Node 284
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5]
+Path: [1, 0, 0, 1, 1, 0, 1, 0]
+
+@Node 285
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [1, 0, 0, 0, 1, 0, 1, 1]
+
+@Node 286
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5, 2]
+Path: [1, 0, 0, 0, 1, 0, 1, 0]
+
+@Node 287
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 1, 0, 1, 1, 1]
+
+@Node 288
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [0, 3]
+Path: [1, 1, 1, 1, 0, 1, 1, 0]
+
+@Node 289
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [2, 3]
+Path: [1, 1, 1, 0, 0, 1, 1, 1]
+
+@Node 290
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 0, 0, 1, 1, 0]
+
+@Node 291
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 1, 1, 0, 0, 1, 1]
+
+@Node 292
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3]
+Path: [1, 1, 1, 1, 0, 0, 1, 0]
+
+@Node 293
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2, 3]
+Path: [1, 1, 1, 0, 0, 0, 1, 1]
+
+@Node 294
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 1, 0, 0, 0, 1, 0]
+
+@Node 295
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 1, 1, 1]
+
+@Node 296
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 1, 1, 0]
+
+@Node 297
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2, 3]
+Path: [1, 1, 0, 0, 0, 1, 1, 1]
+
+@Node 298
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 0, 0, 1, 1, 0]
+
+@Node 299
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 0, 1, 1]
+
+@Node 300
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 0, 1, 0]
+
+@Node 301
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2, 3]
+Path: [1, 1, 0, 0, 0, 0, 1, 1]
+
+@Node 302
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 1, 0, 0, 0, 0, 1, 0]
+
+@Node 303
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1, 4, 3, 2]
+Path: [1, 0, 1, 1, 0, 1, 1, 1]
+
+@Node 304
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1, 0, 4, 3, 2]
+Path: [1, 0, 1, 1, 0, 1, 1, 0]
+
+@Node 305
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 2]
+Path: [1, 0, 1, 0, 0, 1, 1, 1]
+
+@Node 306
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 2]
+Path: [1, 0, 1, 0, 0, 1, 1, 0]
+
+@Node 307
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 2]
+Path: [1, 0, 1, 1, 0, 0, 1, 1]
+
+@Node 308
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3, 2]
+Path: [1, 0, 1, 1, 0, 0, 1, 0]
+
+@Node 309
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [1, 0, 1, 0, 0, 0, 1, 1]
+
+@Node 310
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [1, 0, 1, 0, 0, 0, 1, 0]
+
+@Node 311
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3, 2]
+Path: [1, 0, 0, 1, 0, 1, 1, 1]
+
+@Node 312
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3, 2]
+Path: [1, 0, 0, 1, 0, 1, 1, 0]
+
+@Node 313
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [1, 0, 0, 0, 0, 1, 1, 1]
+
+@Node 314
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [1, 0, 0, 0, 0, 1, 1, 0]
+
+@Node 315
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 2]
+Path: [1, 0, 0, 1, 0, 0, 1, 1]
+
+@Node 316
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 2]
+Path: [1, 0, 0, 1, 0, 0, 1, 0]
+
+@Node 317
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [1, 0, 0, 0, 0, 0, 1, 1]
+
+@Node 318
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [1, 0, 0, 0, 0, 0, 1, 0]
+
+@Node 319
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1, 3]
+Path: [1, 1, 1, 1, 1, 1, 0, 1]
+
+@Node 320
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [0, 1, 3, 5]
+Path: [1, 1, 1, 1, 1, 1, 0, 0]
+
+@Node 321
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 1, 3]
+Path: [1, 1, 1, 0, 1, 1, 0, 1]
+
+@Node 322
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 0, 1, 3, 5]
+Path: [1, 1, 1, 0, 1, 1, 0, 0]
+
+@Node 323
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 1, 1, 0, 0, 1]
+
+@Node 324
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3, 5]
+Path: [1, 1, 1, 1, 1, 0, 0, 0]
+
+@Node 325
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 0, 1, 0, 0, 1]
+
+@Node 326
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3, 5]
+Path: [1, 1, 1, 0, 1, 0, 0, 0]
+
+@Node 327
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3]
+Path: [1, 1, 0, 1, 1, 1, 0, 1]
+
+@Node 328
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3, 5]
+Path: [1, 1, 0, 1, 1, 1, 0, 0]
+
+@Node 329
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3]
+Path: [1, 1, 0, 0, 1, 1, 0, 1]
+
+@Node 330
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3, 5]
+Path: [1, 1, 0, 0, 1, 1, 0, 0]
+
+@Node 331
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 1, 1, 0, 0, 1]
+
+@Node 332
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 5]
+Path: [1, 1, 0, 1, 1, 0, 0, 0]
+
+@Node 333
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 0, 1, 0, 0, 1]
+
+@Node 334
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 5]
+Path: [1, 1, 0, 0, 1, 0, 0, 0]
+
+@Node 335
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1]
+Path: [1, 0, 1, 1, 1, 1, 0, 1]
+
+@Node 336
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 5]
+Path: [1, 0, 1, 1, 1, 1, 0, 0]
+
+@Node 337
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 1]
+Path: [1, 0, 1, 0, 1, 1, 0, 1]
+
+@Node 338
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 1, 5]
+Path: [1, 0, 1, 0, 1, 1, 0, 0]
+
+@Node 339
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 5]
+Path: [1, 0, 1, 1, 1, 0, 0, 1]
+
+@Node 340
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5]
+Path: [1, 0, 1, 1, 1, 0, 0, 0]
+
+@Node 341
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 3, 5]
+Path: [1, 0, 1, 0, 1, 0, 0, 1]
+
+@Node 342
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5]
+Path: [1, 0, 1, 0, 1, 0, 0, 0]
+
+@Node 343
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [1, 0, 0, 1, 1, 1, 0, 1]
+
+@Node 344
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 5]
+Path: [1, 0, 0, 1, 1, 1, 0, 0]
+
+@Node 345
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [1, 0, 0, 0, 1, 1, 0, 1]
+
+@Node 346
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 5]
+Path: [1, 0, 0, 0, 1, 1, 0, 0]
+
+@Node 347
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 5]
+Path: [1, 0, 0, 1, 1, 0, 0, 1]
+
+@Node 348
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [5]
+Path: [1, 0, 0, 1, 1, 0, 0, 0]
+
+@Node 349
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 5]
+Path: [1, 0, 0, 0, 1, 0, 0, 1]
+
+@Node 350
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [5]
+Path: [1, 0, 0, 0, 1, 0, 0, 0]
+
+@Node 351
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3]
+Path: [1, 1, 1, 1, 0, 1, 0, 1]
+
+@Node 352
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3]
+Path: [1, 1, 1, 1, 0, 1, 0, 0]
+
+@Node 353
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 3]
+Path: [1, 1, 1, 0, 0, 1, 0, 1]
+
+@Node 354
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 0, 3]
+Path: [1, 1, 1, 0, 0, 1, 0, 0]
+
+@Node 355
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 1, 1, 0, 0, 0, 1]
+
+@Node 356
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3]
+Path: [1, 1, 1, 1, 0, 0, 0, 0]
+
+@Node 357
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 1, 0, 0, 0, 0, 1]
+
+@Node 358
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3]
+Path: [1, 1, 1, 0, 0, 0, 0, 0]
+
+@Node 359
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 1, 0, 1]
+
+@Node 360
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 1, 0, 0]
+
+@Node 361
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 0, 0, 1, 0, 1]
+
+@Node 362
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 1, 0, 0, 0, 1, 0, 0]
+
+@Node 363
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 0, 0, 1]
+
+@Node 364
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 1, 0, 1, 0, 0, 0, 0]
+
+@Node 365
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 1, 0, 0, 0, 0, 0, 1]
+
+@Node 366
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 1, 0, 0, 0, 0, 0, 0]
+
+@Node 367
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 4, 3]
+Path: [1, 0, 1, 1, 0, 1, 0, 1]
+
+@Node 368
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 0, 4, 3]
+Path: [1, 0, 1, 1, 0, 1, 0, 0]
+
+@Node 369
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4]
+Path: [1, 0, 1, 0, 0, 1, 0, 1]
+
+@Node 370
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4]
+Path: [1, 0, 1, 0, 0, 1, 0, 0]
+
+@Node 371
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [1, 0, 1, 1, 0, 0, 0, 1]
+
+@Node 372
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3]
+Path: [1, 0, 1, 1, 0, 0, 0, 0]
+
+@Node 373
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 3]
+Path: [1, 0, 1, 0, 0, 0, 0, 1]
+
+@Node 374
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0]
+Path: [1, 0, 1, 0, 0, 0, 0, 0]
+
+@Node 375
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 3]
+Path: [1, 0, 0, 1, 0, 1, 0, 1]
+
+@Node 376
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 3]
+Path: [1, 0, 0, 1, 0, 1, 0, 0]
+
+@Node 377
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 1, 3]
+Path: [1, 0, 0, 0, 0, 1, 0, 1]
+
+@Node 378
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [1, 0, 0, 0, 0, 1, 0, 0]
+
+@Node 379
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 0, 0, 1, 0, 0, 0, 1]
+
+@Node 380
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 0, 0, 1, 0, 0, 0, 0]
+
+@Node 381
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [1, 0, 0, 0, 0, 0, 0, 1]
+
+@Node 382
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5, 0]
+Path: [1, 0, 0, 0, 0, 0, 0, 0]
+
+@Node 383
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1]
+Path: [0, 1, 1, 1, 1, 1, 1, 1]
+
+@Node 384
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [0, 1, 3]
+Path: [0, 1, 1, 1, 1, 1, 1, 0]
+
+@Node 385
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 1, 2, 3]
+Path: [0, 1, 1, 0, 1, 1, 1, 1]
+
+@Node 386
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 0, 1, 3, 2]
+Path: [0, 1, 1, 0, 1, 1, 1, 0]
+
+@Node 387
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [3, 0, 2]
+Path: [0, 1, 1, 1, 1, 0, 1, 1]
+
+@Node 388
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3]
+Path: [0, 1, 1, 1, 1, 0, 1, 0]
+
+@Node 389
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [2, 3]
+Path: [0, 1, 1, 0, 1, 0, 1, 1]
+
+@Node 390
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3, 2]
+Path: [0, 1, 1, 0, 1, 0, 1, 0]
+
+@Node 391
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1]
+Path: [0, 1, 0, 1, 1, 1, 1, 1]
+
+@Node 392
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3]
+Path: [0, 1, 0, 1, 1, 1, 1, 0]
+
+@Node 393
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 2, 3]
+Path: [0, 1, 0, 0, 1, 1, 1, 1]
+
+@Node 394
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3, 2]
+Path: [0, 1, 0, 0, 1, 1, 1, 0]
+
+@Node 395
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 2]
+Path: [0, 1, 0, 1, 1, 0, 1, 1]
+
+@Node 396
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [0, 1, 0, 1, 1, 0, 1, 0]
+
+@Node 397
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2, 3]
+Path: [0, 1, 0, 0, 1, 0, 1, 1]
+
+@Node 398
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 2]
+Path: [0, 1, 0, 0, 1, 0, 1, 0]
+
+@Node 399
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1]
+Path: [0, 0, 1, 1, 1, 1, 1, 1]
+
+@Node 400
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1]
+Path: [0, 0, 1, 1, 1, 1, 1, 0]
+
+@Node 401
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 1]
+Path: [0, 0, 1, 0, 1, 1, 1, 1]
+
+@Node 402
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 1]
+Path: [0, 0, 1, 0, 1, 1, 1, 0]
+
+@Node 403
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [4, 0, 1, 5, 2]
+Path: [0, 0, 1, 1, 1, 0, 1, 1]
+
+@Node 404
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 5, 1]
+Path: [0, 0, 1, 1, 1, 0, 1, 0]
+
+@Node 405
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 2]
+Path: [0, 0, 1, 0, 1, 0, 1, 1]
+
+@Node 406
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 5, 2]
+Path: [0, 0, 1, 0, 1, 0, 1, 0]
+
+@Node 407
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 0, 1, 1, 1, 1, 1]
+
+@Node 408
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 0, 1, 1, 1, 1, 0]
+
+@Node 409
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 0, 0, 1, 1, 1, 1]
+
+@Node 410
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 0, 0, 1, 1, 1, 0]
+
+@Node 411
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 5, 2]
+Path: [0, 0, 0, 1, 1, 0, 1, 1]
+
+@Node 412
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5, 1]
+Path: [0, 0, 0, 1, 1, 0, 1, 0]
+
+@Node 413
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [0, 0, 0, 0, 1, 0, 1, 1]
+
+@Node 414
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5, 2]
+Path: [0, 0, 0, 0, 1, 0, 1, 0]
+
+@Node 415
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 3
+Doencas: [1, 4, 3, 0, 2]
+Path: [0, 1, 1, 1, 0, 1, 1, 1]
+
+@Node 416
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 3]
+Path: [0, 1, 1, 1, 0, 1, 1, 0]
+
+@Node 417
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 2, 3]
+Path: [0, 1, 1, 0, 0, 1, 1, 1]
+
+@Node 418
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 0, 3, 2]
+Path: [0, 1, 1, 0, 0, 1, 1, 0]
+
+@Node 419
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 0, 2]
+Path: [0, 1, 1, 1, 0, 0, 1, 1]
+
+@Node 420
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3]
+Path: [0, 1, 1, 1, 0, 0, 1, 0]
+
+@Node 421
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2, 3]
+Path: [0, 1, 1, 0, 0, 0, 1, 1]
+
+@Node 422
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3, 2]
+Path: [0, 1, 1, 0, 0, 0, 1, 0]
+
+@Node 423
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 3, 2]
+Path: [0, 1, 0, 1, 0, 1, 1, 1]
+
+@Node 424
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [0, 1, 0, 1, 0, 1, 1, 0]
+
+@Node 425
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2, 3]
+Path: [0, 1, 0, 0, 0, 1, 1, 1]
+
+@Node 426
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 2]
+Path: [0, 1, 0, 0, 0, 1, 1, 0]
+
+@Node 427
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 2]
+Path: [0, 1, 0, 1, 0, 0, 1, 1]
+
+@Node 428
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [0, 1, 0, 1, 0, 0, 1, 0]
+
+@Node 429
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2, 3]
+Path: [0, 1, 0, 0, 0, 0, 1, 1]
+
+@Node 430
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3, 2]
+Path: [0, 1, 0, 0, 0, 0, 1, 0]
+
+@Node 431
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 4]
+Path: [0, 0, 1, 1, 0, 1, 1, 1]
+
+@Node 432
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 0, 4]
+Path: [0, 0, 1, 1, 0, 1, 1, 0]
+
+@Node 433
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4]
+Path: [0, 0, 1, 0, 0, 1, 1, 1]
+
+@Node 434
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4]
+Path: [0, 0, 1, 0, 0, 1, 1, 0]
+
+@Node 435
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 0, 2]
+Path: [0, 0, 1, 1, 0, 0, 1, 1]
+
+@Node 436
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0]
+Path: [0, 0, 1, 1, 0, 0, 1, 0]
+
+@Node 437
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 2]
+Path: [0, 0, 1, 0, 0, 0, 1, 1]
+
+@Node 438
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 2]
+Path: [0, 0, 1, 0, 0, 0, 1, 0]
+
+@Node 439
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 0, 1, 0, 1, 1, 1]
+
+@Node 440
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 0, 1, 0, 1, 1, 0]
+
+@Node 441
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 1, 2]
+Path: [0, 0, 0, 0, 0, 1, 1, 1]
+
+@Node 442
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 2]
+Path: [0, 0, 0, 0, 0, 1, 1, 0]
+
+@Node 443
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [2]
+Path: [0, 0, 0, 1, 0, 0, 1, 1]
+
+@Node 444
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 0, 5, 1, 2]
+Path: [0, 0, 0, 1, 0, 0, 1, 0]
+
+@Node 445
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [0, 0, 0, 0, 0, 0, 1, 1]
+
+@Node 446
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [0, 0, 0, 0, 0, 0, 1, 0]
+
+@Node 447
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1]
+Path: [0, 1, 1, 1, 1, 1, 0, 1]
+
+@Node 448
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [0, 1]
+Path: [0, 1, 1, 1, 1, 1, 0, 0]
+
+@Node 449
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 1]
+Path: [0, 1, 1, 0, 1, 1, 0, 1]
+
+@Node 450
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 0, 1]
+Path: [0, 1, 1, 0, 1, 1, 0, 0]
+
+@Node 451
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [3, 0]
+Path: [0, 1, 1, 1, 1, 0, 0, 1]
+
+@Node 452
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0]
+Path: [0, 1, 1, 1, 1, 0, 0, 0]
+
+@Node 453
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 3, 0]
+Path: [0, 1, 1, 0, 1, 0, 0, 1]
+
+@Node 454
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0]
+Path: [0, 1, 1, 0, 1, 0, 0, 0]
+
+@Node 455
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 1, 0, 1, 1, 1, 0, 1]
+
+@Node 456
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 1, 0, 1, 1, 1, 0, 0]
+
+@Node 457
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 1, 0, 0, 1, 1, 0, 1]
+
+@Node 458
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 1, 0, 0, 1, 1, 0, 0]
+
+@Node 459
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [0, 1, 0, 1, 1, 0, 0, 1]
+
+@Node 460
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 0, 5, 1]
+Path: [0, 1, 0, 1, 1, 0, 0, 0]
+
+@Node 461
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3]
+Path: [0, 1, 0, 0, 1, 0, 0, 1]
+
+@Node 462
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 5]
+Path: [0, 1, 0, 0, 1, 0, 0, 0]
+
+@Node 463
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 1, 1, 1, 1, 0, 1]
+
+@Node 464
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1]
+Path: [0, 0, 1, 1, 1, 1, 0, 0]
+
+@Node 465
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 1]
+Path: [0, 0, 1, 0, 1, 1, 0, 1]
+
+@Node 466
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 1]
+Path: [0, 0, 1, 0, 1, 1, 0, 0]
+
+@Node 467
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [4, 0, 1, 5]
+Path: [0, 0, 1, 1, 1, 0, 0, 1]
+
+@Node 468
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 5, 1]
+Path: [0, 0, 1, 1, 1, 0, 0, 0]
+
+@Node 469
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4]
+Path: [0, 0, 1, 0, 1, 0, 0, 1]
+
+@Node 470
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 5]
+Path: [0, 0, 1, 0, 1, 0, 0, 0]
+
+@Node 471
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 1, 1, 1, 0, 1]
+
+@Node 472
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 1, 1, 1, 0, 0]
+
+@Node 473
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 0, 1, 1, 0, 1]
+
+@Node 474
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 0, 1, 1, 0, 0]
+
+@Node 475
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [5, 1]
+Path: [0, 0, 0, 1, 1, 0, 0, 1]
+
+@Node 476
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [5, 1]
+Path: [0, 0, 0, 1, 1, 0, 0, 0]
+
+@Node 477
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 2, 5]
+Path: [0, 0, 0, 0, 1, 0, 0, 1]
+
+@Node 478
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [5]
+Path: [0, 0, 0, 0, 1, 0, 0, 0]
+
+@Node 479
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 2
+Doencas: [1, 4, 3, 0]
+Path: [0, 1, 1, 1, 0, 1, 0, 1]
+
+@Node 480
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0]
+Path: [0, 1, 1, 1, 0, 1, 0, 0]
+
+@Node 481
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4]
+Path: [0, 1, 1, 0, 0, 1, 0, 1]
+
+@Node 482
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 0]
+Path: [0, 1, 1, 0, 0, 1, 0, 0]
+
+@Node 483
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [3, 0]
+Path: [0, 1, 1, 1, 0, 0, 0, 1]
+
+@Node 484
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0]
+Path: [0, 1, 1, 1, 0, 0, 0, 0]
+
+@Node 485
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 3, 0]
+Path: [0, 1, 1, 0, 0, 0, 0, 1]
+
+@Node 486
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0]
+Path: [0, 1, 1, 0, 0, 0, 0, 0]
+
+@Node 487
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 3]
+Path: [0, 1, 0, 1, 0, 1, 0, 1]
+
+@Node 488
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 3, 0]
+Path: [0, 1, 0, 1, 0, 1, 0, 0]
+
+@Node 489
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 1, 3]
+Path: [0, 1, 0, 0, 0, 1, 0, 1]
+
+@Node 490
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 3]
+Path: [0, 1, 0, 0, 0, 1, 0, 0]
+
+@Node 491
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [0, 1, 0, 1, 0, 0, 0, 1]
+
+@Node 492
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3, 0]
+Path: [0, 1, 0, 1, 0, 0, 0, 0]
+
+@Node 493
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [0, 1, 0, 0, 0, 0, 0, 1]
+
+@Node 494
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3]
+Path: [0, 1, 0, 0, 0, 0, 0, 0]
+
+@Node 495
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 4]
+Path: [0, 0, 1, 1, 0, 1, 0, 1]
+
+@Node 496
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [1, 0, 4]
+Path: [0, 0, 1, 1, 0, 1, 0, 0]
+
+@Node 497
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [4]
+Path: [0, 0, 1, 0, 0, 1, 0, 1]
+
+@Node 498
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [4]
+Path: [0, 0, 1, 0, 0, 1, 0, 0]
+
+@Node 499
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 0]
+Path: [0, 0, 1, 1, 0, 0, 0, 1]
+
+@Node 500
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0]
+Path: [0, 0, 1, 1, 0, 0, 0, 0]
+
+@Node 501
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [4]
+Path: [0, 0, 1, 0, 0, 0, 0, 1]
+
+@Node 502
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0]
+Path: [0, 0, 1, 0, 0, 0, 0, 0]
+
+@Node 503
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 1, 0, 1, 0, 1]
+
+@Node 504
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 1, 0, 1, 0, 0]
+
+@Node 505
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [4, 1]
+Path: [0, 0, 0, 0, 0, 1, 0, 1]
+
+@Node 506
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1]
+Path: [0, 0, 0, 0, 0, 1, 0, 0]
+
+@Node 507
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [4, 2, 3, 0, 5, 1]
+Path: [0, 0, 0, 1, 0, 0, 0, 1]
+
+@Node 508
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [3, 0, 5, 1]
+Path: [0, 0, 0, 1, 0, 0, 0, 0]
+
+@Node 509
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [4, 2]
+Path: [0, 0, 0, 0, 0, 0, 0, 1]
+
+@Node 510
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [5, 0]
+Path: [0, 0, 0, 0, 0, 0, 0, 0]
+
+Folhas com diagnostico: 256/256
+Folhas preechidas pelo DiagnosticCompleter: 213/256
+Folhas preechidas de grau 1: 110/213
+Folhas preechidas de grau 2: 78/213
+Folhas preechidas de grau 3: 24/213
+Folhas preechidas de grau maior que 4 e menor que 10: 1/213
+Folhas colocadas como nothing default ou com diagnostico inconclusivo: 0/213
