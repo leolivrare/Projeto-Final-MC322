@@ -65,7 +65,6 @@ public class Application {
 		} else {
 			String folderName =  Path.getFolderName();
 			String pathCSV = fileUsage.getPathCSV(folderName);
-			System.out.println("Path: "+pathCSV);
 			dataset.setDataSource(pathCSV);
 			symptomFrequency = fileUsage.getFrequency(folderName);
 				
@@ -118,6 +117,8 @@ public class Application {
                             "Pra não morrer terá que "+tratamento.getTratamento()+". \n ATÉ MAIS");
 			
 			zt.twittar();
+			
+			System.out.println();
 			
 
 			ArrayList<String> falasL = dialogue.getFalas();

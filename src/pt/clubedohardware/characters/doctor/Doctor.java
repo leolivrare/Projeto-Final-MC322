@@ -71,9 +71,9 @@ public class Doctor implements IDoctor{
         
         if (!(tree.getKeySymptoms().isEmpty())) {
         	for(Integer x : tree.getKeySymptoms()) {
-        		dialogue.addDoctorSpeech(attributes[x]);
+        		dialogue.addDoctorSpeech("Voce esta com "+attributes[x]+"?");
             	answer = patient.ask(attributes[x], dialogue);
-            	dialogue.addPatientSpeech(answer);
+            	dialogue.addPatientSpeech(answer+"!");
             	
             	if (answer.equals("Sim")) {
             		diagnostic = diagnostic + diseases.get(tree.getKSDiagnostic(x)) + " e ";
@@ -84,9 +84,9 @@ public class Doctor implements IDoctor{
         
         if (!verificador) {
 	        while (!(node.getDiagnostico())) {
-	        	dialogue.addDoctorSpeech(attributes[node.getSymptom()]);
+	        	dialogue.addDoctorSpeech("Voce esta com "+attributes[node.getSymptom()]+"?");
 	        	answer = patient.ask(attributes[node.getSymptom()], dialogue);
-	        	dialogue.addPatientSpeech(answer);
+	        	dialogue.addPatientSpeech(answer+"!");
 	        	if(answer.equals("Sim")) {
 	        		node = node.getEsquerdo();
 	        	}
