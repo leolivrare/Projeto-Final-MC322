@@ -1,0 +1,260 @@
+@Tree
+Sintomas unicos: [2, 5]
+Doencas: [viral_infection, zulombriga, bacterial_infection, fight]
+Prioridade: [0, 1, 4, 3]
+Nos da Arvore
+@Node 0
+Sintoma: 0
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [-1, -1, 0, -1, -1, 0]
+
+@Node 1
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, -1, 0, -1, -1, 0]
+
+@Node 2
+Sintoma: 1
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, -1, 0, -1, -1, 0]
+
+@Node 3
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, -1, 0]
+
+@Node 4
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, -1, 0]
+
+@Node 5
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, -1, 0]
+
+@Node 6
+Sintoma: 4
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, -1, 0]
+
+@Node 7
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 1, 0]
+
+@Node 8
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 1, 0, -1, 0, 0]
+
+@Node 9
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 1, 0]
+
+@Node 10
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [1, 0, 0, -1, 0, 0]
+
+@Node 11
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 1, 0]
+
+@Node 12
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 1, 0, -1, 0, 0]
+
+@Node 13
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 1, 0]
+
+@Node 14
+Sintoma: 3
+Diagnostico: false
+Filled: false
+FilledPower: 0
+Doencas: null
+Path: [0, 0, 0, -1, 0, 0]
+
+@Node 15
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 2]
+Path: [1, 1, 0, 1, 1, 0]
+
+@Node 16
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 2]
+Path: [1, 1, 0, 0, 1, 0]
+
+@Node 17
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [1, 1, 0, 1, 0, 0]
+
+@Node 18
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [1, 1, 0, 0, 0, 0]
+
+@Node 19
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0]
+Path: [1, 0, 0, 1, 1, 0]
+
+@Node 20
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0]
+Path: [1, 0, 0, 0, 1, 0]
+
+@Node 21
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [1, 0, 0, 1, 0, 0]
+
+@Node 22
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2]
+Path: [1, 0, 0, 0, 0, 0]
+
+@Node 23
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3, 2, 1]
+Path: [0, 1, 0, 1, 1, 0]
+
+@Node 24
+Sintoma: 0
+Diagnostico: true
+Filled: true
+FilledPower: 1
+Doencas: [0, 3, 1, 2]
+Path: [0, 1, 0, 0, 1, 0]
+
+@Node 25
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2, 1]
+Path: [0, 1, 0, 1, 0, 0]
+
+@Node 26
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [1, 2]
+Path: [0, 1, 0, 0, 0, 0]
+
+@Node 27
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0, 3]
+Path: [0, 0, 0, 1, 1, 0]
+
+@Node 28
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0, 3]
+Path: [0, 0, 0, 0, 1, 0]
+
+@Node 29
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [0, 3, 1, 2]
+Path: [0, 0, 0, 1, 0, 0]
+
+@Node 30
+Sintoma: 0
+Diagnostico: true
+Filled: false
+FilledPower: 0
+Doencas: [2, 0, 1, 3]
+Path: [0, 0, 0, 0, 0, 0]
+
+Folhas com diagnostico: 16/16
+Folhas preechidas pelo DiagnosticCompleter: 4/16
+Folhas preechidas de grau 1: 4/4
+Folhas preechidas de grau 2: 0/4
+Folhas preechidas de grau 3: 0/4
+Folhas preechidas de grau maior que 4 e menor que 10: 0/4
+Folhas colocadas como nothing default ou com diagnostico inconclusivo: 0/4
